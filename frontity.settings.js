@@ -3,8 +3,8 @@ const settings = {
   "state": {
     "frontity": {
       "url": "https://test.frontity.org",
-      "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development"
+      "title": "Pantheon WP",
+      "description": "Powered by frontity"
     }
   },
   "packages": [
@@ -14,24 +14,20 @@ const settings = {
         "theme": {
           "menu": [
             [
-              "Home",
-              "/"
+              "Decoupled",
+              "/category/decoupled"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "Future Gadgets",
+              "/category/future-gadgets/"
             ],
             [
-              "Travel",
-              "/category/travel/"
+              "Blockchain",
+              "/category/blockchain/"
             ],
             [
-              "Japan",
-              "/tag/japan/"
-            ],
-            [
-              "About Us",
-              "/about-us/"
+              "Metaverse",
+              "/category/metaverse/"
             ]
           ],
           "featured": {
@@ -45,7 +41,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://test.frontity.org"
+          "url": "https://dev-akm-wp-dcop.pantheonsite.io"
         }
       }
     },
